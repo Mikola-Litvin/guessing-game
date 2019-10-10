@@ -1,11 +1,12 @@
 class GuessingGame {
-    arr = []
-    minRange = 0
-    maxRange
-    middle
-    result
-  
+    
     constructor() {
+
+      this.arr = [];
+      this.minRange = 0;
+      this.maxRange;
+      this.middle;
+      this.result;
     }
   
     setRange(min, max) {
